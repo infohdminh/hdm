@@ -1,0 +1,38 @@
+.header-wrapper {
+	background: #fff;
+}
+.header-wrapper .bg-light {
+	background: transparent!important;
+}
+
+.header-wrapper img.logo {
+	width: 190px;
+}
+
+.header-wrapper .nav-link {
+    font-size: 16px;
+    color: #333!important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+li.nav-item.active {
+    background: #156fbf;
+    color: #fff!important;
+    border-radius: 7px;
+}
+
+li.nav-item.active a {
+    color: #fff!important;
+}
+
+.nav-link {
+    padding: 2px 7px;
+}
+
+@media (min-width: 1000px) {
+    ul.navbar-nav.mr-auto {
+        position: absolute;
+        right: 0;
+    }
+}

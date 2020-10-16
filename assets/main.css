@@ -1,0 +1,15 @@
+@import url('header.css'); 
+@import url('banner.css');
+@import url('thuongcang.css');
+@import url('overview.css');
+@import url('location.css');
+@import url('reason.css');
+@import url('widget.css');
+@import url('design.css');
+@import url('reality.css');
+@import url('footer.css');
+
+body {
+	font-size: 15px;
+	font-family: Roboto,sans-serif;
+}

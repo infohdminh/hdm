@@ -1,0 +1,14 @@
+.carousel-item img {
+    height: 640px;
+    overflow: hidden;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
+@media (max-width: 720px) {
+    .carousel-item img {
+        height: 280px;
+        overflow: hidden;
+    }
+}

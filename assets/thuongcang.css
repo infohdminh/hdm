@@ -1,0 +1,116 @@
+.tc-wrapper {
+    background: rgb(21, 77, 126);
+    color: #fff;
+    padding: 35px 15px;
+    height: 230px;
+}
+
+.tc-text {
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    font-weight: 500;
+    width: 70%;
+    line-height: 1.3;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.tc-wrap {
+    display: flex;
+    background: #fff;
+    color: #333;
+    width: 100%;
+    padding: 8px;
+    position: absolute;
+}
+
+.tc-wrap:before {
+    content: '';
+    width: 102%;
+    height: 108%;
+    position: absolute;
+    left: -30px;
+    -webkit-transform: skewX(-10deg) translate3d(0,0,0);
+    -ms-transform: skewX(-10deg) translate3d(0,0,0);
+    transform: skewX(-10deg) translate3d(0,0,0);
+    border: solid 1px #E0E0E0;
+    top: -4%;
+    padding-right: calc(((100vw - 1170px) / 2) + 60px);
+    box-sizing: content-box;
+    border-radius: 5px;
+    background: white;
+}
+
+.tc-item {
+    z-index: 1;
+    padding: 30px 20px;
+    position: relative;
+    flex: 1;
+}
+
+.tc-item h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.tc-item p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #6a6a6a;
+    font-size: .7rem;
+    line-height: 2;
+}
+
+.tc-item:after {
+    content: '';
+    width: 20px;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(line.jpg);
+    left: 100%;
+    top: 10%;
+    -webkit-transform: skew(-10deg);
+    -ms-transform: skew(-10deg);
+    transform: skew(-10deg);
+    position: absolute;
+}
+
+.tc-item:nth-child(3):after {
+    display: none;
+}
+
+.tc-clear {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 99%;
+    position: absolute;
+    height: 280px;
+}
+
+@media (max-width: 720px) {
+    .tc-text {
+        display: none;
+    }
+    .tc-wrap {
+        display: block;
+    }
+    .tc-wrap:before {
+        display: none;
+    }
+    .tc-wrapper {
+        background: #fff;
+        padding: 0;
+        height: auto;
+        
+    }
+    .tc-clear {
+        width: 98%;
+        height: 500px;
+    }
+}

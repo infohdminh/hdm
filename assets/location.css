@@ -1,0 +1,27 @@
+.icon-box.featured-box.icon-box-left.text-left {
+    display: flex;
+    margin-bottom: 30px;
+}
+.icon-box-img {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+    max-width: 200px;
+}
+.icon-box-text.last-reset {
+    flex: 1 1 0px;
+    margin-left: 20px;
+}
+.icon-box-text h3 {
+    color: #154d7e;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.icon-box-text.last-reset p {
+    color: #616161;
+    display: block;
+}
+
+.lc-heading h3 {
+    color: #333!important;
+}

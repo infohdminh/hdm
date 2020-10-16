@@ -1,0 +1,28 @@
+.gallery-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.inner-gallery h3 {
+    color: #154d7e;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+img.tab-img {
+    width: 100%;
+    height: auto;
+}
+
+.design-wrapper {
+    background: #fafafa;
+}
+
+.tab-content {
+    background: #fff;
+    padding: 10px;
+    border-radius: 3px;
+}
